@@ -1,0 +1,175 @@
+Question No 1.
+Down below is discription of how to download and install visual code studio in window 11 operating system.
+   1. Download the Installer:
+      . Open your preferred web browser.
+      . Navigate to the Visual Studio Code website.
+      . Click on the "Download for Windows" button. This will start the download of the VS Code installer (.exe file).
+   2. Run the Installer:
+      . Once the download is complete, locate the downloaded installer file (usually in your Downloads folder).
+      . ouble-click on the installer file (VSCodeUserSetup-x64-<version>.exe) to start the installation process.
+   3. Begin the Installation:
+      . A setup wizard will open. Click "Next" to proceed.
+      . Read and accept the license agreement, then click "Next".
+   4. Select Installation Location:
+      . Choose the destination folder where you want to install VS Code. The default location is usually fine, so click "Next" unless you have a specific location in mind.
+   5. Select Additional Tasks:
+      . Create a desktop icon: Check this if you want a shortcut on your desktop.
+      . Add to PATH (recommended): Check this to add VS Code to your system PATH, making it easier to   open from the command line. 
+      . Register Code as an editor for supported file types: Check this if you want VS Code to be the default editor for supported file types.
+      . Add "Open with Code" action to Windows Explorer file context menu: Check this if you want to be able to right-click on files and folders in Windows Explorer and open them with VS Code.
+      . Add "Open with Code" action to Windows Explorer directory context menu: Check this for a similar option as above, but for directories.
+   6. Install:
+      . Click "Install" to begin the installation. The installer will copy the necessary files and set up VS Code on your system.
+   7. Finish Installation:
+      . Once the installation is complete, you will see a final screen. Check the "Launch Visual Studio Code" option if you want to open VS Code immediately after installation.
+      . Click "Finish" to complete the installation process.
+
+      Question No. 2
+After installing Visual Studio Code, you can adjust several initial configurations and settings to create an optimal coding environment. Here are some important settings and recommended extensions.
+   1. Extensions for Specific Languages:
+      . Python: Install the "Python" extension by Microsoft.
+      . HTML/CSS: Install the "HTML CSS Support" extension.
+      . Install  PrettiernCode formatter extensions.
+   2. Theme and Font:
+      . Select a theme that suits your preference. Popular choices include "Dark+" (default dark theme), "Light+" (default light theme), and One Dark Pro. 
+   3. Editor Configurations:
+      . Auto Save: Enable auto-saving by setting "files.autoSave": "afterDelay" in your settings.
+   4. Version Control:
+      . Git: VS Code has built-in Git support. Ensure you have Git installed on your system.
+   5. Terminal Configuration:
+      . Customize the integrated terminal by going to File > Preferences > Settings, searching for "Terminal Integrated Font Family", and setting your preferred font family.
+      . hange the default shell by setting "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe" for WSL or the path to PowerShell or Git Bash.
+
+      Question No. 3
+Visual Studio Code (VS Code) has a user interface designed to be intuitive and flexible for developers. Here are the main components of the VS Code user interface and their purposes.
+   1. Activity Bar.
+       The Activity Bar allows you to switch between different views such as Explorer, Search, Source Control, Run and Debug, Extensions, and any additional views added by installed extensions.
+        # Explorer (File icon): Shows your project files and folders.
+        # Search (Magnifying glass icon): Provides global search and replace functionality.
+        # Source Control (Branch icon): Integrates with version control systems like Git.
+        # Run and Debug (Play icon): Manages debugging sessions.
+        # Extensions (Square icon): Manages extensions and adds new functionalities to VS Code.
+   2. Side Bar.
+       The Side Bar contains context-specific tools and information related to the currently selected activity in the Activity Bar. For example.
+        # When the Explorer is selected, the Side Bar shows the file and folder structure of your workspace.
+        # When Search is selected, the Side Bar shows search results and replace options.
+        # When Source Control is selected, the Side Bar shows changes, branches, and repositories.
+        # When Extensions is selected, the Side Bar shows installed extensions and recommendations.
+   3. Editor Group.
+       . The Editor Group is where you edit your files. You can open multiple files in tabs, and VS Code supports multiple editor groups for side-by-side editing.
+       . You can split the Editor Group horizontally or vertically to view and edit multiple files simultaneously.
+       . Each editor group can independently have its own tabs and editors open, making it easier to work on multiple files or different parts of the same project.
+   4. Status Bar.
+       . The Status Bar provides information and shortcuts related to the current workspace and active file.
+       . Displays various pieces of information, such as:
+         # Current file encoding: Shows the encoding of the active file.
+         # Live Server status: If you are running a live server extension, it shows the server status and port number.
+         # Current Git branch: If you are using Git, it shows the current branch name and provides Git status information.
+         # Programming language mode: Indicates the language mode of the current file and allows you to change it.
+         # Notifications and Warnings: Shows errors, warnings, and other notifications related to the workspace or active file.
+   These components together make up the core of the VS Code user interface, allowing developers to efficiently manage and interact with their code, tools, and resources. 
+
+   Question No. 4
+The Command Palette in Visual Studio Code (VS Code) is a powerful feature that allows you to access and execute various commands quickly and efficiently. It serves as a centralized interface for invoking any command within VS Code without having to navigate through menus.
+    . In Visual Studio you can access the Command Palette by pressing Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac). Or the best and simple alternatively, you can open it from the menu by selecting View > Command Palette, and you can find the command and you can customize them as you want.
+    . With Command Palette several task can be performed by it as mentioned and discussed below;
+    1. Opening Files and Folders
+    2. Searching and Replacing
+    3. Git and Source Control
+       . Git Commit: Type >Git: Commit to commit changes.
+       . Git Push: Type >Git: Push to push commits to the remote repository.
+    4. Extensions Management
+       . Install Extension: Type >Extensions: Install Extensions to open the Extensions view and search for extensions to install.
+       . Disable Extension: Type >Extensions: Disable to disable an installed extension.
+    5. Configuration and Settings
+       . Open Settings: Type >Preferences: Open Settings to open the settings UI.
+       . Open Settings (JSON): Type >Preferences: Open Settings (JSON) to open the settings file in JSON format.
+   The Command Palette is an essential tool in VS Code, providing quick access to a wide range of commands and functions, greatly enhancing productivity and efficiency in your development workflow.           
+
+   Question No. 5
+Extensions play a crucial role in enhancing the functionality and flexibility of Visual Studio Code (VS Code). They allow users to add new features, tools, and integrations to the editor, tailoring it to their specific development needs. With extensions can have a full support in programming languages, debuggers, themes, linters, and other utilities.
+The Installation process of Extensions in Visual Code Studio.
+   1. Extensions View: 
+    . To browse and search for extensions within VS Code, click the Extensions icon in the Activity Bar on the side of the window or press Ctrl+Shift+X
+    . Use the search bar to find extensions by name or functionality.
+    . Click the "Install" button next to the desired extension.
+   2. Via VS Code Marketplace Website:
+    . Visit the VS Code Marketplace (https://marketplace.visualstudio.com/VSCode)
+The extensions in visual code studio can be managed by several ways just let them work properly and you can either enable them if you want them to work in your project and viceversa if you don't need them in your project. 
+Update Extensions: When updates are available, you will see an "Update" button next to the extension in the Extensions view.
+The Web Development has some its essential extensions which are suitable for web development as mentioned below.
+   1. Code Formatting and Linting.
+    . Prettier - Code formatter: Automatically formats your code according to a set of rules, ensuring consistency.
+   2. Version Control. 
+    . GitLens: Enhances the built-in Git capabilities with features like blame annotations, repository history, and more.
+   3. Live Server.
+    . Live Server: Launches a local development server with live reload functionality for static and dynamic pages, making it easier to see changes in real-time.
+   4. HTML and CSS Support.
+    . HTML CSS Support: Enhances HTML and CSS support with IntelliSense for HTML class names defined in CSS files.
+    . CSS Peek: Allows you to quickly see and navigate to the CSS rules directly from the HTML file.
+   5. Themes and Icons.
+    . Material Icon Theme: Adds a set of visually appealing icons for different file types and folders.
+    . One Dark Pro: A popular dark theme inspired by Atom's One Dark theme.
+With Extensions developers can significantly enhance their productivity and streamline their web development workflow in VS Code.  
+
+   Question No. 6
+A terminal, in the context of computing, is a text-based interface that allows users to interact with the computer's operating system. It provides a way to enter commands and receive textual output. Terminals can be used to perform a wide range of tasks, including file manipulation, program execution, and system configuration.
+   There are several ways in opening Integrated terminal in visual studio code as discussed below.
+   1. Via Menu.
+    . Go to the menu bar and select Terminal > New Terminal.
+   2. Using Keyboard Shortcut.
+    . Press Ctrl+ (backtick) on Windows/Linux or Cmd+ (backtick) on Mac.
+VS Code includes an integrated terminal, which combines the functionality of a traditional terminal with the convenience of being embedded within the code editor. This allows developers to perform terminal tasks without leaving the editor, providing a more seamless development experience. The advantage of using Integrated Terminal in VS Code compared to External Termnial. 
+   1. Extension Integration.
+    . Many VS Code extensions leverage the integrated terminal for running tasks, scripts, or development servers. This tight integration ensures that the tools work seamlessly together.
+    . For example, extensions like Live Server can start a development server and display logs directly in the integrated terminal.
+   2. Synchronization.
+    . The integrated terminal is synchronized with the editor, meaning that file changes, compilation errors, and other outputs are displayed in the same window, making it easier to track and fix issues.
+   3. Integrated Tools.
+    . The terminal supports various shells (e.g., Command Prompt, PowerShell, Git Bash, WSL), allowing you to choose the shell that best fits your development needs.
+    . It supports features like quick access to your command history, split terminals, and customizable themes and fonts.
+   4. Environment Consistency.
+    . The integrated terminal shares the same environment as VS Code, including environment variables, making it easier to manage dependencies and configurations consistently.
+   5. Convenience and Efficiency.
+    . It allows you to run commands and scripts directly within VS Code, reducing the need to switch between the editor and an external terminal. This streamlines your workflow and saves time.
+    . You can have the terminal open side-by-side with your code, making it easy to reference your code while executing commands.
+The integrated terminal, provide efficient development workflow, reducing the friction between writing code and executing commands.        
+
+   Question No. 7
+Creating, opening, and managing files and folders in Visual Studio Code (VS Code) is straightforward and highly efficient. Below is the explanantion on how to navigate different file in VS Code.
+   1. Using the Explorer View.
+    . Open the Explorer view by clicking the Explorer icon in the Activity Bar or pressing 
+    Ctrl+Shift+E. 
+    . Right-click on the directory where you want to create a new file.
+    . Select "New File" from the context menu.
+    . Enter the file name and press Enter.
+   2. Renaming Files and Folders in VS Code is a better way of managing the file and folders as you can remember and recognise them by name. 
+    . Right-click the file or folder you want to rename.
+    . Enter the new name and press Enter.
+   As well as you can delete them if you don't need them.
+   How efficently you can create, open and managing files and folders in VS Code and navigating with them will provide a better workflow in your project.
+
+   Question No. 8
+In Visual Studio Code (VS Code), users can find and customize settings to tailor their development environment according to their preferences. Settings can be accessed and modified through the Settings. Below is how you can do it.
+   1. Through menu in VS Code Go to File > Preferences > Settings (Windows/Linux) or Code > Preferences > Settings (Mac). With shortcut on keyboard Press Ctrl+, (Windows/Linux) or Cmd+, (Mac).
+   2. In changing the VS Code theme with keyboard shortcut, Press Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac). And also Type Preferences: Color Theme and select a theme from the list.
+   3. Throuth setting you can change font size by using the search bar, type font size then Adjust the editor mode; Font Size setting to your preferred size.
+   4. Making your own keybinding according to your preference, Go to File > Preferences > Keyboard Shortcuts (Windows/Linux) or Code > Preferences > Keyboard Shortcuts (Mac). THe other altenatively with keyboard shortcut press Ctrl+K Ctrl+S (Windows/Linux) or Cmd+K Cmd+S (Mac).
+   In here you will add your new key command and you will assign them as you want.
+   Good thing and Visual Code Studio a user can customize almost everything according to his personal preferences for a better productivity.
+
+   Question No. 9
+There are several ways in debugging the VS Code .
+   1. Install Necessary Extensions, the extensions have to base on the language your using.
+   2. Also setting debugging configuration, the debug icon in VS Code is in Activity Bar or you can find it by shortcuts keys in your keyboard by pressing Ctrl+Shift+D.
+
+   Key Feature of debug in VS Code
+   1. Debug Console
+    . Use the Debug Console to evaluate expressions, execute commands, and interact with the running program.
+   2. Variable Inspection
+    . View and expand variables in the VARIABLES section of the Debug view to inspect their contents.
+   3. Watch Expressions
+    . Add expressions to the Watch panel to evaluate and monitor their values as you step through the code.   
+
+    Question No. 10
+              https://docs.google.com/document/d/1NTWU7plwUZGin8XIvHUdlF9-Fo2cK35w5LCoiCo-kJ4/edit?usp=sharing
